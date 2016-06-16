@@ -1,0 +1,12 @@
+body {
+  background: #e0e5ce;
+}
+
+#wrapper {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+#header {
+  background: rgba(30,34,250, .3);
+}

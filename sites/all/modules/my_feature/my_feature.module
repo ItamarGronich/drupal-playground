@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Code for the my feature feature.
+ */
+
+include_once 'my_feature.features.inc';
+
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function my_feature_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'ctools') {
+    return 'plugins/' . $plugin;
+  }
+}
