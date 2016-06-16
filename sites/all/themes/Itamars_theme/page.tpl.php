@@ -1,4 +1,3 @@
-
 <?php if ($page['header']): ?>
   <header id="header">
 
